@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /*Gradient linear atas ke bawah */
+      .grad1 {
+        height: 200px;
+        background-image: linear-gradient(purple, yellow);
+      }
+
+      /*Gradient linear kiri ke kanan */
+      .grad2 {
+        height: 200px;
+        background-image: linear-gradient(to right, green, khaki);
+      }
+
+      /*Gradient linear diagonal kiri atas ke kanan bawah*/
+      .grad3 {
+        height: 200px;
+        background-image: linear-gradient(to bottom right, maroon, white);
+      }
+
+      /*Gradient linear menggunakan derajat (121 derajat sudutnya)*/
+      .grad4 {
+        height: 200px;
+        background-image: linear-gradient(121deg, gold, azure);
+      }
+
+      /*Gradient linear 3 warna*/
+      .grad5 {
+        height: 200px;
+        background-image: linear-gradient(yellow, blue, green);
+      }
+
+      /*Gradient linear 7 warna*/
+      .grad6 {
+        height: 200px;
+        background-image: linear-gradient(
+          to left,
+          red,
+          orange,
+          yellow,
+          green,
+          blue,
+          indigo,
+          violet
+        );
+      }
+
+      /*Gradient Linear Menggunakan Transparency*/
+      .grad7 {
+        height: 200px;
+        background-image: linear-gradient(
+          to right,
+          rgba(100, 0, 100, 0)
+            /*rgba (jml merah, jml hijau, jml biru, transparansi)*/,
+          rgba(247, 34, 34, 0.7)
+        );
+      }
+
+      /*Gradient berulangg */
+      .grad8 {
+        height: 200px;
+        background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Linear Gradient - Atas ke Bawah (Top to Bottom)</h1>
+    Gradasi/gradient ini dimulai dari warna purple ke warna yellow, mulai dari
+    atas ke bawah
+    <div class="grad1"></div>
+    <h1>Linear Gradient - Kiri ke Kanan (Left to Right)</h1>
+    <div class="grad2"></div>
+    <h1>
+      Linear Gradient - Kiri Atas ke Kanan Bawah (Top Left to Bottom Right)
+    </h1>
+    <div class="grad3"></div>
+    <h1>Linear Gradient - Menggunakan Derajat</h1>
+    <div class="grad4"></div>
+    <h1>Linear Gradient - 3 Warna</h1>
+    <div class="grad5"></div>
+    <h1>Rainbow Background Color dengan Teks di atasnya</h1>
+    <div class="grad6">
+      <p
+        style="
+          font-size: 75px;
+          font-family: Arial, Helvetica, sans-serif;
+          color: grey;
+          text-align: center;
+        "
+      >
+        <b>Rainbow Background</b>
+      </p>
+    </div>
+    <h1>Linear Gradient - Menggunakan Transparency</h1>
+    <div class="grad7"></div>
+    <h1>Linear Gradient - Berulang / repeat</h1>
+    <div class="grad8"></div>
+  </body>
+</html>

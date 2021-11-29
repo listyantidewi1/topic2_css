@@ -1,0 +1,7 @@
+p {
+  border: 3px solid blue;
+  outline: tomato solid 5px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}

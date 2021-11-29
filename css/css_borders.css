@@ -1,0 +1,51 @@
+p.dotted {
+  border-style: dotted;
+  border-color: darkorange;
+}
+p.dashed {
+  border-style: dashed;
+  border-color: darkmagenta;
+}
+p.solid {
+  border-style: solid;
+  border-color: goldenrod;
+}
+p.specificColor {
+  border-style: solid;
+  border-color: rgb(195, 13, 104) skyblue teal rebeccapurple;
+}
+p.double {
+  border-style: double;
+}
+p.ridge {
+  border-style: ridge;
+}
+p.inset {
+  border-style: inset;
+}
+p.outset {
+  border-style: outset;
+}
+p.none {
+  border-style: none;
+}
+p.hidden {
+  border-style: hidden;
+}
+p.mix {
+  border-style: dotted dashed solid double;
+}
+p.width {
+  border-style: solid;
+  border-width: 8px;
+}
+p.specificWidth {
+  border-style: dashed;
+  border-width: 40px 5px 17px 80px;
+  /*40px tebal border atas, 5px kanan, 17px bawah, 80px kiri*/
+}
+p.round {
+  border: 2px solid royalblue;
+  border-radius: 5px;
+  background-color: silver;
+}

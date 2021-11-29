@@ -1,0 +1,38 @@
+th.one,
+td.one {
+  padding: 15px;
+  text-align: left;
+  background-color: lightblue;
+  color: darkblue;
+}
+th.two,
+td.two {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+tr.three:hover {
+  background-color: mediumvioletred;
+}
+tr.four:hover {
+  background-color: aquamarine;
+}
+
+tr.five:nth-child(even) {
+  background-color: lightgreen;
+}
+
+table.six {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th.seven,
+td.seven {
+  text-align: left;
+  padding: 8px;
+}
+
+tr.eight:nth-child(even) {
+  background-color: lightsalmon;
+}

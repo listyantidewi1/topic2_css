@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>General Sibling</title>
+    <style>
+      div ~ p {
+        background-color: hotpink;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>General Sibling</h1>
+    <p>
+      General sibling menyeleksi seluruh saudara berikutnya, baik berjarak 1
+      maupun lebih. (menyeleksi adek ke 1, ke 2, dst.. bukan hanya yg ke 1 saja
+      seperti adjacent sibling)
+    </p>
+    <div>
+      <p>Ini paragraf 1 di dalam div (anak)</p>
+      <p>Ini paragraf 2 di dalam div (anak)</p>
+    </div>
+
+    <p>Ini paragraf 3 di luar div (adik-1)</p>
+    <p>Ini paragraf 4 di luar div (adik-2)</p>
+    <a href="http://www.google.com">Link (adik-3)</a>
+    <p>Ini paragraf 5 di luar div (adik-4)</p>
+  </body>
+</html>

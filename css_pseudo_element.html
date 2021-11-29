@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pseudo Element</title>
+    <style>
+      p.first_letter::first-letter {
+        color: pink;
+        font-variant: small-caps;
+      }
+      p.first_line::first-line {
+        color: peru;
+        font-variant: small-caps;
+      }
+      ::selection {
+        color: brown;
+        background: khaki;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="first_line">
+      You can use the ::first-line pseudo-element to add a special effect to the
+      first line of a text. Some more text. And even more, and more, and more,
+      and more, and more, and more, and more, and more, and more, and more, and
+      more, and more.
+    </p>
+
+    <p class="first_letter">
+      You can use the ::first-line pseudo-element to add a special effect to the
+      first line of a text. Some more text. And even more, and more, and more,
+      and more, and more, and more, and more, and more, and more, and more, and
+      more, and more.
+    </p>
+  </body>
+</html>

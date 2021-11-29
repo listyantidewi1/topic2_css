@@ -1,0 +1,26 @@
+span.a {
+  display: inline;
+  width: 150px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid maroon;
+  background-color: pink;
+}
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid maroon;
+  background-color: pink;
+}
+
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid maroon;
+  background-color: pink;
+}

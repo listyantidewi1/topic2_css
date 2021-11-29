@@ -1,0 +1,42 @@
+div.visible {
+  width: 200px;
+  height: 60px;
+  background-color: darksalmon;
+  overflow: visible;
+}
+
+div.hidden {
+  position: relative;
+  top: 3px;
+  width: 200px;
+  height: 60px;
+  background-color: greenyellow;
+  overflow: hidden;
+}
+
+div.scroll {
+  position: relative;
+  top: 3px;
+  width: 200px;
+  height: 60px;
+  background-color: mediumslateblue;
+  overflow: scroll;
+}
+div.auto {
+  position: relative;
+  top: 3px;
+  width: 200px;
+  height: 60px;
+  background-color: khaki;
+  overflow: auto;
+}
+
+div.xy {
+  position: relative;
+  top: 3px;
+  width: 200px;
+  height: 50px;
+  background-color: plum;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}

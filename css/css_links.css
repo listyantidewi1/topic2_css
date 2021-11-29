@@ -1,0 +1,42 @@
+a.one {
+  color: crimson;
+}
+
+a.two {
+  color: deeppink;
+}
+
+a.three:link {
+  color: brown;
+  background-color: burlywood;
+}
+
+a.three:visited {
+  color: midnightblue;
+  background-color: aqua;
+}
+
+a.three:hover {
+  color: darkviolet;
+  background-color: lightpink;
+}
+a.three:active {
+  color: forestgreen;
+  background-color: bisque;
+}
+
+a.four:link,
+a.four:visited {
+  background-color: lightsalmon;
+  color: bisque;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.four:hover,
+a.four:active {
+  background-color: crimson;
+  cursor: move;
+}

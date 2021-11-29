@@ -1,0 +1,30 @@
+ul.a {
+  list-style-type: circle;
+  list-style-position: outside;
+  background: #ff768f;
+  padding: 30px;
+}
+
+ul.a li {
+  background: #be2863;
+}
+
+ul.b {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+ul.e {
+  list-style-image: url("../img/bullet.png");
+  transform: scale(0.02);
+  width: 25px;
+  height: 35px;
+}

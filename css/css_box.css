@@ -1,0 +1,13 @@
+div.box1 {
+  width: 250px;
+  border: 10px solid teal;
+  padding: 50px;
+  margin: 20px;
+}
+
+div.box2 {
+  width: 230px;
+  border: 2px dotted olive;
+  padding: 5px;
+  margin: 0px;
+}

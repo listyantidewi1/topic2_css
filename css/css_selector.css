@@ -1,0 +1,15 @@
+/*Ini adalah CSS selector id*/
+#para1 {
+  text-align: center;
+  color: indigo;
+}
+
+/*Ini adalah CSS selector class*/
+.center {
+  text-align: center;
+  color: maroon;
+}
+
+.warnahijau {
+  color: darkgreen;
+}

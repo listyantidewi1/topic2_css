@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .grad1 {
+        height: 150px;
+        background-color: blue;
+        background-image: radial-gradient(red, blue, indigo);
+      }
+
+      /*radial gradient dengan prosentase komposisi warna yang berbeda*/
+      .grad2 {
+        height: 178px;
+        width: 178px;
+        background-image: radial-gradient(red 6%, blue 20%, indigo 50%);
+      }
+
+      /*radial-gradient dengan set shape, fungsinya untuk menjaga bentuk gradient agar tidak terpengaruh oleh kotaknya atau <div>nya*/
+      .grad3 {
+        height: 240px;
+        width: 400px;
+        background-image: radial-gradient(circle, red 6%, blue 20%, indigo 50%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Radial Gradient</h1>
+    <div class="grad1"></div>
+    <h1>Radial Gradient dengan Prosentase Warna</h1>
+    <div class="grad2"></div>
+    <h1>Radial Gradient dengan Set Shape Circle</h1>
+    <div class="grad3"></div>
+  </body>
+</html>

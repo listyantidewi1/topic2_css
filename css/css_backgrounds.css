@@ -1,0 +1,41 @@
+/*Element selector. Tertulis element div yang artinya seluruh elemen div pada dokumen HTML yang memakai style ini akan memiliki bg color khaki */
+div {
+  background-color: khaki;
+}
+
+/*class selector khusus untuk div */
+div.first {
+  opacity: 0.1;
+}
+div.second {
+  opacity: 0.3;
+}
+div.third {
+  opacity: 0.6;
+}
+
+/*bg image jika gambar ada di folder lain*/
+.bgImage {
+  background-image: url("../img/bg.jpg");
+  color: moccasin;
+}
+
+/*bg image jika gambar ada dalam satu folder yg sama dgn file css ini*/
+.bgImage2 {
+  background-image: url("bg2.jpg");
+  color: pink;
+}
+
+/*
+body {
+  background-image: url("../img/bg3.jpg");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  margin-left: 100px;
+} */
+
+/*background shorthand, cara menuliskan deklrasi css background dalam satu baris deklarasi*/
+body {
+  background: url("../img/bg3.jpg") repeat-x fixed;
+  margin-left: 100px;
+}

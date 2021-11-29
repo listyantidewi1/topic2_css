@@ -1,0 +1,15 @@
+li {
+  display: inline;
+}
+
+a.block {
+  display: block;
+}
+
+h1.hidden {
+  display: none;
+}
+
+div.one {
+  border: 1px solid;
+}
